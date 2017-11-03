@@ -1,0 +1,259 @@
+<resources>
+    <string name="app_name">xMec</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <string name="FACEBOOK_APP_ID">1851247128486694</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">81a1002ad50275fa6ddf658fa6a0755f</string>
+
+    <!-- Activity -->
+    <string name="title_activity_mbr_create">Tạo y bạ</string>
+    <string name="title_activity_mbr_update">Cập nhật y bạ</string>
+    <string name="title_activity_hr_create">Tạo sổ khám bệnh</string>
+
+
+    <!-- Layout -->
+    <string name="layout_disagree">Hủy bỏ</string>
+    <string name="layout_agree">Đồng ý</string>
+    <string name="layout_ok">OK</string>
+    <string name="layout_please_wait">Vui lòng chờ</string>
+
+    <!-- SlideView -->
+    <string name="layout_sv_login_by_phone">Đăng nhập bằng số điện thoại</string>
+
+    <string name="layout_sv_title_1">QUẢN LÝ Y BẠ THÔNG MINH</string>
+    <string name="layout_sv_title_2">LIÊN KẾT VÀ CHIA SẺ</string>
+    <string name="layout_sv_title_3">LỘ TRÌNH ĐIỀU TRỊ</string>
+    <string name="layout_sv_title_4">TRA CỨU BỆNH, THUỐC NHANH CHÓNG</string>
+    <string name="layout_sv_title_5">LỊCH NHẮC NHỞ UỐNG TIỆN LỢI</string>
+
+    <string name="layout_sv_content_1">Cung cấp đầy đủ thông tin y bạ cho người dùng
+        liên kết các tài khoản tiện lợi</string>
+    <string name="layout_sv_content_2">Cung cấp đầy đủ thông tin y bạ cho người dùng
+        liên kết các tài khoản tiện lợi</string>
+    <string name="layout_sv_content_3">Cung cấp đầy đủ thông tin y bạ cho người dùng
+        liên kết các tài khoản tiện lợi</string>
+    <string name="layout_sv_content_4">Cung cấp đầy đủ thông tin tra cứu bệnh,
+        thuốc nhanh chính xác</string>
+    <string name="layout_sv_content_5">Lịch uống thuốc tiện lợi
+        giúp bạn không quên mất giờ uống thuốc của mình</string>
+
+    <!-- Login -->
+    <string name="layout_lg_login">Đăng nhập</string>
+    <string name="layout_lg_register">Đăng ký</string>
+    <string name="layout_lg_forgot_pass">Quên mật khẩu?</string>
+    <string name="layout_lg_phone">Số điện thoại</string>
+    <string name="layout_lg_passwork">Nhập mật khẩu</string>
+
+    <!-- Register -->
+    <string name="layout_rg_name">Họ tên</string>
+    <string name="layout_rg_phone">Số điện thoại</string>
+    <string name="layout_rg_passwork">Mật khẩu</string>
+    <string name="layout_rg_passwork_again">Nhập lại mật khẩu</string>
+    <string name="layout_rg_register">Đăng ký</string>
+
+    <!-- Mbr -->
+
+
+    <!-- Mbr Create -->
+    <string name="layout_mbr_create_add">Thêm y bạ</string>
+    <string name="layout_mbr_create_name">Họ và tên</string>
+    <string name="layout_mbr_create_gender">Giới tính</string>
+    <string name="layout_mbr_create_date">Ngày sinh</string>
+    <string name="layout_mbr_create_relationship">Quan hệ</string>
+    <string name="layout_mbr_create_link">Tài khoản liên kết</string>
+    <string name="layout_mbr_create">Tạo y bạ</string>
+
+    <!-- Mbr Update -->
+    <string name="layout_mbr_update">Cập nhật y bạ</string>
+    <string name="layout_mbr_delete">Xóa y bạ</string>
+
+    <!-- Search Friend -->
+    <string name="layout_sf_link">Liên kết</string>
+    <string name="layout_sf_search">Tìm kiếm</string>
+    <string name="layout_sf_search_by_phone">Tìm kiếm bằng số điện thoại</string>
+    <string name="layout_sf_view_only">Chỉ xem</string>
+    <string name="layout_sf_view_and_edt">Xem và sửa</string>
+    <string name="layout_sf_cancel">Hủy</string>
+
+    <!-- Mbr -->
+    <string name="layout_mbr_not_update">Chưa cập nhật</string>
+    <string name="layout_mbr_item_link">Liên kết</string>
+    <string name="layout_mbr_item_share">Đã chia sẻ</string>
+    <string name="layout_mbr_item_create_by">Tạo bởi</string>
+    <string name="layout_mbr_item_health_records">Danh sách sổ điều trị</string>
+
+    <!-- Health Records -->
+    <string name="layout_hr_start">Bắt đầu:</string>
+    <string name="layout_hr_list_empty">Danh sách trống</string>
+    <string name="layout_hr_push">(nhấn</string>
+    <string name="layout_hr_to_add">để thêm danh sách)</string>
+
+    <!-- Health Record Create -->
+    <string name="layout_hr_create_hr_name">Tên sổ khám</string>
+    <string name="layout_hr_create_sick_name">Tên bệnh</string>
+    <string name="layout_hr_create_start_date">Ngày bắt đầu</string>
+    <string name="layout_hr_create_note">Ghi chú</string>
+    <string name="layout_hr_create_hospital">Cơ sở y tế</string>
+    <string name="layout_hr_create_doctor_name">Bác sĩ</string>
+    <string name="layout_hr_create_collapse">Thu gọn</string>
+    <string name="layout_hr_create_expand">Mở rộng</string>
+    <string name="layout_hr_create_continue">Mở rộng</string>
+
+    <!-- Disease -->
+    <string name="layout_disease_name">Tên bệnh</string>
+    <string name="layout_disease_add_disease">THÊM BỆNH</string>
+    <string name="layout_disease_cancel">Hủy</string>
+    <string name="layout_disease_add">Thêm</string>
+
+
+    <!-- Menu -->
+    <string name="menu_navigation_mbr">Y bạ</string>
+    <string name="menu_navigation_infomation">Tin tức</string>
+    <string name="menu_navigation_searching_sick">Tra cứu bệnh</string>
+    <string name="menu_navigation_searching_medicine">Tra cứu thuốc</string>
+    <string name="menu_navigation_medical_facility">Tìm kiếm cơ sở y tế</string>
+    <string name="menu_navigation_share">Chia sẻ và tư vấn</string>
+    <string name="menu_navigation_setting">Cài đặt</string>
+    <string name="menu_navigation_logout">Đăng xuất</string>
+
+
+    <!-- Resize Image -->
+    <string name="menu_resize_image_rota">Xoa phải</string>
+    <string name="menu_resize_done">Chọn</string>
+
+
+    <!-- Dialog -->
+
+    <!-- Login -->
+    <string name="dialog_lg_change_password">ĐỔI MẬT KHẨU</string>
+    <string name="dialog_lg_input_phone">Nhập số điện thoại</string>
+    <string name="dialog_lg_cancel">Hủy</string>
+    <string name="dialog_lg_continue">Tiếp tục</string>
+    <string name="dialog_lg_input_new_pasword">Nhập mật khẩu mới</string>
+    <string name="dialog_lg_done">Xong</string>
+
+
+    <!-- Message -->
+    <string name="message_back_press_to_exit">Nhấn back lần nữa để thoát app</string>
+    <string name="message_can_not_request">Không thể kết nối tới Server</string>
+    <string name="message_select_picture">Chọn ảnh</string>
+
+    <!-- Login -->
+    <string name="message_lg_active">Tài khoản của bạn chưa đưuọc kích hoạt, bạn có muốn kích hoạt tài khoản?</string>
+
+    <!-- Create Account -->
+    <string name="message_ca_error_link_try_again">Liên kết tài khoản y bạ không thành công. Bạn có muốn thử lại?</string>
+
+    <!-- Mbr -->
+    <string name="message_mbr_delete">Bạn muốn xóa y bạ này?</string>
+
+
+    <!-- Doing -->
+    <string name="setting">Cài đặt</string>
+    <string name="cancel">Hủy bỏ</string>
+    <string name="updating">Đang cập nhật</string>
+
+    <!-- Login -->
+    <string name="doing_reset_pass">Đang đổi mật khẩu…</string>
+
+    <!-- Register -->
+    <string name="doing_register">Đang thực hiện đăng ký…</string>
+    <string name="doing_active">Đang kích hoạt tài khoản…</string>
+    <string name="doing_login">Đang đăng nhập…</string>
+
+    <!-- Mbr -->
+    <string name="doing_mbr_create">Đang tạo y bạ…</string>
+    <string name="doing_mbr_link">Đang liên kết y bạ…</string>
+    <string name="doing_mbr_delete">Đang xóa y bạ…</string>
+
+
+    <!-- Success -->
+
+    <!-- Login -->
+    <string name="success_lg_active">Kích hoạt tài khoản thành công</string>
+    <string name="success_lg_reset">Đổi mật khẩu thành công</string>
+
+    <!-- Register -->
+    <string name="success_register">Đăng ký tài khoản thành công. Vui lòng kích hoạt tài khoản</string>
+    <string name="success_active">Kích hoạt tài khoản thành công</string>
+
+    <!-- Mbr Create -->
+    <string name="success_mbr_create">Tạo y bạ thành công</string>
+
+    <!-- Mbr Update -->
+    <string name="success_mbr_update">Cập nhật y bạ thành công</string>
+
+
+    <!-- Error -->
+    <string name="error_try_again">Có lỗi xảy ra. Vui lòng thử lại</string>
+    <string name="error_no_internet">Không có kết nối mạng</string>
+    <string name="error_not_allow_permission">Không thể thực hiện do bạn chưa cấp quyền</string>
+
+    <!-- Login -->
+    <string name="error_lg_input_phone">Vui lòng nhập số điện thoại</string>
+    <string name="error_lg_input_password">Vui lòng nhập mật khẩu</string>
+    <string name="error_lg_invalid_phone">Số điện thoại phải là chữ số và từ 10 đến 15 ký tự</string>
+    <string name="error_lg_invalid_password">Mật khẩu phải từ 6 – 20 ký tự và không chứa khoảng trắng</string>
+    <string name="error_lg_active">Kích hoạt tài khoản không thành công</string>
+    <string name="error_lg_reset">Đổi mật khẩu không thành công</string>
+
+    <!-- Home -->
+    <string name="error_home_logout">Đăng xuất không thành công</string>
+
+    <!-- Register -->
+    <string name="error_rg_input_name">Vui lòng nhập họ tên</string>
+    <string name="error_rg_input_phone">Vui lòng nhập số điện thoại</string>
+    <string name="error_rg_input_password">Vui lòng nhập mật khẩu</string>
+    <string name="error_rg_input_password_again">Vui lòng nhập lại mật khẩu</string>
+    <string name="error_rg_invalid_phone">Số điện thoại phải là chữ số và từ 10 đến 15 ký tự</string>
+    <string name="error_rg_invalid_password">Mật khẩu phải có từ 6 – 20 ký tự và không chứa khoảng trắng</string>
+    <string name="error_rg_invalid_password_again">Mật khẩu phải có từ 6 – 20 ký tự và không chứa khoảng trắng</string>
+    <string name="error_rg_not_equal_password">Mật khẩu không trùng khớp</string>
+    <string name="error_rg_not_phone">Số điện thoại không hợp lệ</string>
+    <string name="error_register">Đăng ký tài khoản không thành công</string>
+    <string name="error_active">Kích hoạt tài khoản không thành công</string>
+
+    <!-- Mbr Create -->
+    <string name="error_mbr_create_avatar">Vui lòng chọn ảnh đại diện</string>
+    <string name="error_mbr_create_name">Vui lòng nhập họ tên</string>
+    <string name="error_mbr_create_gender">Vui lòng chọn giới tính</string>
+    <string name="error_mbr_create_birthday">Vui lòng chọn ngày sinh</string>
+    <string name="error_mbr_create_relationship">Vui lòng chọn quan hệ</string>
+    <string name="error_mbr_share_over_5">Bạn không thể chia sẻ quá 5 người</string>
+    <string name="error_mbr_share_account_exists">Tài khoản đã được chọn</string>
+
+    <!-- Search Friend -->
+    <string name="error_sf_select_friend">Vui lòng chọn tài khoản</string>
+    <string name="error_sf_input_phone">Vui lòng nhập số điện thoại</string>
+    <string name="error_sf_invalid_phone">Số điện thoại phải là chữ số và từ 10 đến 15 ký tự</string>
+
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <!-- Array -->
+    <string-array name="gender">
+        <item>Nữ</item>
+        <item>Nam</item>
+    </string-array>
+
+    <string-array name="relationship">
+        <item>Mời chọn</item>
+        <item>Tôi</item>
+        <item>Bố</item>
+        <item>Mẹ</item>
+        <item>Con trai</item>
+        <item>Con gái</item>
+        <item>Ông</item>
+        <item>Bà</item>
+        <item>Cháu trai</item>
+        <item>Cháu gái</item>
+        <item>Bệnh nhân</item>
+    </string-array>
+
+</resources>

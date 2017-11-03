@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_newfeed"
+        android:enabled="true"
+        android:icon="@drawable/newspaper"
+        android:title="News"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_ichat"
+        android:enabled="true"
+        android:icon="@drawable/speechbubble"
+        android:title="Ichat"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_chatroom"
+        android:enabled="true"
+        android:icon="@drawable/group"
+        android:title="Room"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_friend"
+        android:enabled="true"
+        android:icon="@drawable/friendstalking"
+        android:title="Friend"
+        app:showAsAction="ifRoom" />
+</menu>
