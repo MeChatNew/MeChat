@@ -11,7 +11,7 @@ import com.example.maiduan.android_project_2.R;
 
 
 /**
- *Thanh
+ *Thanhthanh
  */
 
 public class FriendFragment extends Fragment {
