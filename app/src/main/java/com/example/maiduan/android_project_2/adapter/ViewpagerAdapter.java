@@ -1,6 +1,6 @@
 package com.example.maiduan.android_project_2.adapter;
 /**
- *Dinh Thanh zzz
+ *Dinh Thanh zz
  */
 
 import android.support.v4.app.Fragment;
