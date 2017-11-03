@@ -1,4 +1,7 @@
 package com.example.maiduan.android_project_2.adapter;
+/**
+ *Dinh Thanh
+ */
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
