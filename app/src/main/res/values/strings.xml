@@ -2,9 +2,9 @@
     <string name="app_name">xMec</string>
 
     <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="facebook_app_id">1520925151310513</string>
+    <string name="fb_login_protocol_scheme">fb1520925151310513</string>
 
-    <string name="FACEBOOK_APP_ID">1851247128486694</string>
-    <string name="ACCOUNT_KIT_CLIENT_TOKEN">81a1002ad50275fa6ddf658fa6a0755f</string>
 
     <!-- Activity -->
     <string name="title_activity_mbr_create">Tạo y bạ</string>

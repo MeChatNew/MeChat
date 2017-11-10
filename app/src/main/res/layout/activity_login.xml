@@ -53,24 +53,16 @@
         android:inputType="textPersonName"
         android:text="Name" />
 
-    <Button
+    <com.facebook.login.widget.LoginButton
         android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView3"
-        android:layout_alignStart="@+id/textView3"
+
         android:layout_below="@+id/editText4"
-        android:layout_marginLeft="45dp"
-        android:layout_marginStart="45dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="69dp"
         android:text="Đăng nhập" />
 
-    <Button
-        android:id="@+id/btnRegiter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/editText4"
-        android:layout_alignRight="@+id/editText4"
-        android:layout_alignTop="@+id/btnLogin"
-        android:text="Đăng kí" />
+
 </RelativeLayout>
