@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Set màu nền -->
+    <solid android:color="#FFFFFF">
+    </solid>
+    <!-- đặt thuộc tính màu và độ rộng của đường viền -->
+    <stroke android:color="@android:color/holo_blue_light" android:width="1dp">
+    </stroke>
+    <!-- và đây là bán kính đường tròn ở 4 góc -->
+    <corners android:radius="400dp">
+    </corners>
+</shape>
