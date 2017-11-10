@@ -14,15 +14,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.mechat.xteam.android_project_2.view.activity.LoginActivity">
+        <activity android:name="com.mechat.xteam.android_project_2.view.activity.LoginActivity"
+            android:screenOrientation="portrait"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.mechat.xteam.android_project_2.view.activity.MainActivity" />
+        <activity android:name="com.mechat.xteam.android_project_2.view.activity.MainActivity"
+
+            android:screenOrientation="portrait"/>
         <activity
+            android:screenOrientation="portrait"
             android:name=".view.activity.FriendsActivity"
             android:label="@string/title_activity_friends"
             android:theme="@style/AppTheme.NoActionBar"></activity>
