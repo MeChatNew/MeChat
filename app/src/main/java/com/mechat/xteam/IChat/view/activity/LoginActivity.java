@@ -1,8 +1,8 @@
 package com.mechat.xteam.IChat.view.activity;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -12,7 +12,6 @@ import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
 import com.facebook.FacebookSdk;
-import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 import com.mechat.xteam.IChat.R;
@@ -20,8 +19,9 @@ import com.mechat.xteam.IChat.R;
 /**
 *Vu Huyen
  */
-public class LoginActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
     Button btnLogin;
+    Button btnRegister;
     CallbackManager callbackManager;
     LoginButton loginButton;
     @Override
@@ -32,7 +32,8 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         callbackManager = CallbackManager.Factory.create();
-
+        btnRegister= (Button) findViewById(R.id.btnRegister);
+        btnRegister.setOnClickListener(this);
         loginButton = (LoginButton)findViewById(R.id.btnLogin);
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
@@ -62,5 +63,16 @@ public class LoginActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         Log.d("Inside Fb login","on Activiry result");
         callbackManager.onActivityResult(requestCode, resultCode, data);
+    }
+
+    @Override
+    public void onClick(View view) {
+        if(view==btnRegister){
+            goToRegister();
+        }
+    }
+
+    private void goToRegister() {
+        startActivity(new Intent(LoginActivity.this,Register.class));
     }
 }

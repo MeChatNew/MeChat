@@ -1,7 +1,39 @@
 <resources>
     <string name="app_name">xMec</string>
 
-    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <string name="action_sign_in_short">Đăng kí</string>
+    <string name="email">Email</string>
+
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Đã có tài khoản!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Quên mật khẩu?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+
+
+<string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
     <string name="facebook_app_id">1520925151310513</string>
     <string name="fb_login_protocol_scheme">fb1520925151310513</string>
 
@@ -236,26 +268,9 @@
     <string name="action_settings">Settings</string>
 
 
-    <!-- Array -->
-    <string-array name="gender">
-        <item>Nữ</item>
-        <item>Nam</item>
-    </string-array>
-
-    <string-array name="relationship">
-        <item>Mời chọn</item>
-        <item>Tôi</item>
-        <item>Bố</item>
-        <item>Mẹ</item>
-        <item>Con trai</item>
-        <item>Con gái</item>
-        <item>Ông</item>
-        <item>Bà</item>
-        <item>Cháu trai</item>
-        <item>Cháu gái</item>
-        <item>Bệnh nhân</item>
-    </string-array>
     <string name="title_activity_friends">FriendsActivity</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="password">password</string>
+    <string name="repass">repeat password</string>
 
 </resources>

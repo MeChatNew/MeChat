@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "461162357992",
+    "firebase_url": "https://ichat-433e1.firebaseio.com",
+    "project_id": "ichat-433e1",
+    "storage_bucket": "ichat-433e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461162357992:android:5d99594eb5d6d88e",
+        "android_client_info": {
+          "package_name": "com.mechat.xteam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461162357992-uviqd5m3ordgc0u3th16tu4srloi45n9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9AUJ3GouHZcaAZzyoqJvZt5KX2DbTPD8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
