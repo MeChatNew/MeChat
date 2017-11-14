@@ -17,7 +17,7 @@
     <string name="hint_email">Email</string>
     <string name="hint_password">Password</string>
     <string name="hint_name">Fullname</string>
-    <string name="btn_login">LOGIN</string>
+    <string name="btn_login">Đăng nhập</string>
     <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
     <string name="btn_link_to_login">Đã có tài khoản!</string>
     <string name="title_activity_reset_password">ResetPasswordActivity</string>
@@ -272,5 +272,6 @@
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="password">password</string>
     <string name="repass">repeat password</string>
+    <string name="register">Đăng kí</string>
 
 </resources>

@@ -6,13 +6,8 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 import com.facebook.CallbackManager;
-import com.facebook.FacebookCallback;
-import com.facebook.FacebookException;
-import com.facebook.login.LoginManager;
-import com.facebook.login.LoginResult;
 import com.mechat.xteam.IChat.R;
 import com.mechat.xteam.IChat.adapter.ViewpagerAdapter;
 import com.mechat.xteam.IChat.model.entity.Fragments;
@@ -20,7 +15,7 @@ import com.mechat.xteam.IChat.view.entity.ViewPagerNoScroll;
 import com.mechat.xteam.IChat.view.fragment.ChatFragment;
 import com.mechat.xteam.IChat.view.fragment.FriendFragment;
 import com.mechat.xteam.IChat.view.fragment.NewFeedFragment;
-import com.mechat.xteam.IChat.view.fragment.RoomFragment;
+import com.mechat.xteam.IChat.view.fragment.UserFragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -73,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         List<Fragments> arr = new ArrayList<>();
         arr.add(new Fragments(NewFeedFragment.newInstance()));
         arr.add(new Fragments(ChatFragment.newInstance()));
-        arr.add(new Fragments(RoomFragment.newInstance()));
+        arr.add(new Fragments(UserFragment.newInstance()));
         arr.add(new Fragments(FriendFragment.newInstance()));
         ViewpagerAdapter vpa = new ViewpagerAdapter(getSupportFragmentManager(), arr);
         viewPager.setAdapter(vpa);

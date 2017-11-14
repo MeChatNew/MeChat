@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_selector"
+    android:orientation="vertical"
+    android:padding="10dp">
+<TextView
+    android:textSize="20sp"
+    android:text="Đổi mật khẩu"
+    android:textStyle="bold"
+    android:textColor="#42c132"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="#da2222"
+        />
+    <EditText
+        android:id="@+id/edt_emailchane"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Nhập Email"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edt_pass_old"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Mật khẩu hiện tại"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edt_pass_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Mật khẩu mới"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_changesubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_selector"
+        android:text="Đổi mật khẩu" />
+</LinearLayout>
