@@ -6,12 +6,6 @@
     android:orientation="vertical"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/btn_sign_out"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Đăng xuất"
-        />
 
     <Button
         android:id="@+id/btn_changepassword"
@@ -20,4 +14,12 @@
         android:text="Đổi mật khẩu"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="66dp" />
+    <Button
+        android:id="@+id/btn_sign_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng xuất"
+        />
+
+
 </LinearLayout>

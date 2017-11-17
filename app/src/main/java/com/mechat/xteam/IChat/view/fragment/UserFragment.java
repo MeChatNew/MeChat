@@ -2,11 +2,13 @@ package com.mechat.xteam.IChat.view.fragment;
 
 import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,6 +16,8 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -22,9 +26,15 @@ import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.EmailAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
 import com.mechat.xteam.IChat.R;
+import com.mechat.xteam.IChat.model.entity.Configuration;
+import com.mechat.xteam.IChat.model.entity.User;
 import com.mechat.xteam.IChat.util.CheckLogin;
 import com.mechat.xteam.IChat.view.activity.LoginActivity;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static android.content.ContentValues.TAG;
 
@@ -38,6 +48,25 @@ public class UserFragment extends Fragment implements View.OnClickListener {
     private Dialog dialog;
     FirebaseUser user;
     EditText edtEmailChange,edtPassOld,edtPassNew;
+
+    TextView tvUserName;
+    ImageView avatar;
+
+    private List<Configuration> listConfig = new ArrayList<>();
+    private RecyclerView recyclerView;
+    private static final String USERNAME_LABEL = "Username";
+    private static final String EMAIL_LABEL = "Email";
+    private static final String SIGNOUT_LABEL = "Sign out";
+    private static final String RESETPASS_LABEL = "Change Password";
+
+    private static final int PICK_IMAGE = 1994;
+
+    private DatabaseReference userDB;
+    private FirebaseAuth mAuth;
+    private User myAccount;
+    private Context context;
+
+
     public static UserFragment newInstance() {
 
         Bundle args = new Bundle();
