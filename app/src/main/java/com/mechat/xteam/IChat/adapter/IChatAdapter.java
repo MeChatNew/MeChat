@@ -1,6 +1,7 @@
 package com.mechat.xteam.IChat.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -11,6 +12,7 @@ import android.widget.Toast;
 
 import com.mechat.xteam.IChat.R;
 import com.mechat.xteam.IChat.model.entity.Messages;
+import com.mechat.xteam.IChat.view.activity.ChatDetail;
 
 import java.util.List;
 
@@ -48,9 +50,14 @@ public class IChatAdapter extends RecyclerView.Adapter<IChatAdapter.ViewHolder> 
             @Override
             public void onClick(View view) {
                 Toast.makeText(ctx, "Hello New Message", Toast.LENGTH_SHORT).show();
+                goToDetailChat();
             }
         });
         Log.d(TAG, "onBindViewHolder: "+listMes.get(0).getIName());
+    }
+
+    private void goToDetailChat() {
+        ctx.startActivity(new Intent(ctx.getApplicationContext(),ChatDetail.class));
     }
 
     @Override

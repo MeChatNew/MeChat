@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    tools:context="com.mechat.xteam.IChat.view.activity.ChatDetail">
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/lv_chat_content"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    >
+
+</android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:hint="enter text"
+            android:id="@+id/edt_iputMess"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="0.9"/>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_send"
+            android:src="@drawable/ic_send"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"/>
+    </LinearLayout>
+</LinearLayout>
