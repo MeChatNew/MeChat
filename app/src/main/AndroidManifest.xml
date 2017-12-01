@@ -23,11 +23,7 @@
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:theme="@style/TranslucentBackground">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".ui.RegisterActivity"
@@ -48,6 +44,14 @@
             android:persistent="true" />
 
         <activity android:name=".ui.TestEmoj"></activity>
+        <activity android:name=".ui.FlashScreen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
