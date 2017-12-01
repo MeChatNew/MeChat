@@ -14,7 +14,7 @@
         android:orientation="horizontal">
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/imgfriend"
+            android:id="@+id/icon_avata"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
@@ -29,35 +29,38 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/txtnamefriend"
+                android:id="@+id/txtName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingTop="15dp"
                 android:text="Trang Nguyễn"
                 android:textSize="18sp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/txttinnhanmoi"
+                android:id="@+id/txtMessage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:elevation="0dp"
                 android:paddingLeft="10dp"
                 android:paddingTop="5dp"
-                android:text="Mẩu tin nhắn mới ...." />
+                android:text="Mẩu tin nhắn mới ...."
+                android:textAppearance="?android:attr/textAppearanceSmall" />
 
 
         </LinearLayout>
 
         <TextView
-            android:id="@+id/txttime"
+            android:id="@+id/txtTime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:layout_marginTop="15dp"
-            android:text="20 : 18" />
+            android:text="20:18"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
 
     </LinearLayout>
 </LinearLayout>
