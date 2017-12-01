@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundlogin"
+    tools:context="com.chat.xteam.ichat.ui.FlashScreen">
+<Button
+    android:id="@+id/btnLogin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2DADCA"
+    android:text="Đăng nhập"
+    android:textColor="#ffffff"
+    android:textSize="20dp"
+    android:layout_alignParentBottom="true"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MeTalk"
+        android:textStyle="italic|bold"
+        android:textColor="#2DADC9"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        />
+</RelativeLayout>
