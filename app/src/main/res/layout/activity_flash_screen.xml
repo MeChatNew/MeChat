@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backgroundlogin"
-    tools:context="com.chat.xteam.ichat.ui.FlashScreen">
+    tools:context="com.chat.xteam.metalk.ui.activity.FlashScreen">
 <Button
     android:id="@+id/btnLogin"
     android:layout_width="match_parent"

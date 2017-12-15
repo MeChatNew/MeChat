@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MeChat.iml" filepath="$PROJECT_DIR$/MeChat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/NewChat.iml" filepath="$PROJECT_DIR$/NewChat.iml" />
+      <module fileurl="file://C:\Users\taipv\Desktop\chat\MeChat\NewChat.iml" filepath="C:\Users\taipv\Desktop\chat\MeChat\NewChat.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
